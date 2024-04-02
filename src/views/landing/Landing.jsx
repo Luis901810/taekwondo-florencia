@@ -1,10 +1,12 @@
+import About from "../../components/abaut/About";
 
 
 const Landing = () =>{
 
     return(
         <div>
-            <h1>Soy el Landing</h1>
+            
+            <About />
         </div>
 
     )   
