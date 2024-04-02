@@ -1,10 +1,19 @@
-
+import { useNavigate } from "react-router-dom";
 
 const Search = () =>{
 
-
+    const navigate = useNavigate();
     return(
-        <input type="search" placeholder="Buscar" />
+        <div>
+            
+            <span onClick={() => navigate("/")}> Inicio </span>
+            <span> Quienes Somos </span>
+            <span onClick={() => navigate("/contactos")}> Contactanos</span>
+
+        <input type="search"id="searchInput" placeholder="Buscar" />
+        </div>
+
+
     )
 }
 
