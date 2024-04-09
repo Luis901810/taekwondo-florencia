@@ -1,4 +1,5 @@
 import './App.css';
+import About from './components/about/About';
 import Contactos from './views/contactos/Contactos';
 
 import Footer from './views/footer/Footer';
@@ -15,6 +16,7 @@ function App() {
 
         <Route path='/' element={ <Landing />} />
         <Route path='/contactos' element={ <Contactos /> } />
+        <Route path='/About' element={ < About /> } />
 
       </Routes>
       
