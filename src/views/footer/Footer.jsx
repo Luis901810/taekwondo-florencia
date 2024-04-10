@@ -3,7 +3,12 @@
 export default function Footer () {
 
     return(
-        <h1>Soy el footer</h1>
+        <div>
+            <p>Derechos reservados </p>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Luis901810@gmail.com</a>
+
+        </div>
+      
     )
 
 }

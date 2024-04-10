@@ -1,5 +1,5 @@
 import './App.css';
-import About from './components/about/About';
+import Instalaciones from './components/instalaciones/Instalaciones';
 import Contactos from './views/contactos/Contactos';
 
 import Footer from './views/footer/Footer';
@@ -16,8 +16,8 @@ function App() {
       <Routes>
 
         <Route path='/' element={ <Landing />} />
-        <Route path='/contactos' element={ <Contactos /> } />
-        <Route path='/About' element={ < About /> } />
+        <Route path='/contactanos' element={ <Contactos /> } />
+        <Route path='/instalaciones' element={ < Instalaciones /> } />
         <Route path='/teakwondo-infantil' element={ <Infantil /> } />
 
       </Routes>
