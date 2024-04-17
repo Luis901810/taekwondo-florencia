@@ -1,0 +1,42 @@
+.container{
+    background-color:rgb(165, 141, 103);
+    color:black;
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.container:hover .desplegable{
+    visibility: visible;
+}
+
+.desplegable{
+    visibility: hidden;
+    position: absolute;
+    top: calc(100% +10px);
+    left: 580px;
+    transform: translateX(-40%); 
+    width: 300px;
+    background-color:white;
+    border: 1px solid #845c13;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgb(0,0,0,0.1);
+    z-index: 1;
+    transition: visibility 0.3s;
+    
+}
+
+.desplegable span{
+    display: block;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.menu {
+    position: relative;
+    left: 300px;
+    
+}
