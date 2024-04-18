@@ -16,6 +16,10 @@ export default function Nav () {
    
   }
 
+  const handleInicio = () =>{
+    navigate("/")
+  }
+
   const handleHorario = () =>{
     navigate("/horarios")
     
@@ -41,6 +45,7 @@ export default function Nav () {
 
   return(
     <div className={styles.container}>
+      <span onClick={handleInicio}> Inicio </span>
       <span 
         onClick={handleTeakwondoSchoolClick}
         onMouseEnter={() => setShowDropdown(true)}
