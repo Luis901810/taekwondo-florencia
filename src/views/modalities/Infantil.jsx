@@ -32,7 +32,7 @@ const Infantil = () => {
             Inscribirse en taekwondo infantil puede ofrecer una variedad de beneficios para los niños. 
             <strong> Aquí te dejo cinco beneficios clave: </strong>
             </p>
-            <ol>
+            <ul>
                 <li>
                     <strong> Desarrollo físico: </strong> 
                     El taekwondo ayuda a desarrollar la fuerza, la coordinación, la flexibilidad y el equilibrio físico, 
@@ -59,7 +59,7 @@ const Infantil = () => {
                 Al unirse a un club de taekwondo, los niños tienen la oportunidad de socializar, hacer nuevos amigos y aprender a trabajar en equipo hacia objetivos comunes.
                 </li>
 
-            </ol>
+            </ul>
         </div>
             
         </div>

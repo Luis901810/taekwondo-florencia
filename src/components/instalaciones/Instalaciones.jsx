@@ -14,6 +14,5 @@ export default function Instalaciones () {
         </p>
         </div>
 
-      
     );
 }
