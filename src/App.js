@@ -10,6 +10,7 @@ import Nav from './views/nav/Nav';
 
 import Footer from './views/footer/Footer';
 import { Route, Routes } from 'react-router-dom';
+import Register from './components/register/Register';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path='/infantil' element={ <Infantil /> } />
         <Route path='/maestros' element= { <Master />} />
         <Route path='/horarios' element= { <Horarios /> } />
+        <Route path='/registro' element = { <Register />} />
 
       </Routes>
       
