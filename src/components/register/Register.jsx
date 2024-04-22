@@ -4,29 +4,43 @@ export default function Register () {
 
     return (
         <div className={styles.container}>
-            <h1>Bienvenidos al Registro</h1>
-        <form className={styles.form} action="">
-        
-        <label htmlFor="nombre"> Nombre </label>
-        <input type="text" name="nombre" id="nombre"  placeholder="Nombre"/>
-        <label htmlFor="apellido"> Apellido </label>
-        <input type="text" name="apellido" id="apellido" placeholder="Apellido"/>
-        <label htmlFor="direccion"> Direccion </label>
-        <input type="text" name="direccion" id="direccion" placeholder="lugar de residencia" />
-        <label htmlFor="correo"> Correo </label>
-        <input type="email" name="correo" id="correo" placeholder="correo electronico" />
-        <label htmlFor="password"> Contraseña </label>
-        <input type="password"  name="password" id="password" placeholder="nueva contraseña"/>
-        <label htmlFor="rep password"> Confirme Contraseña </label>
-        <input type="password" name="rep password" id="rep password" placeholder="confirme contraseña" />
-        <label >
-            <i className="bx bx-user"></i>
-            <input type="text" placeholder="prueba" />
-        </label>
-        <button> Registrar </button>
+            <div className={styles.information}>
+                <div className={styles.infor}>
+                <div className={styles.childs}>
+                    <h2>Bienvenidos</h2>
+                    <p>Para unirte a nuestra comudidad de Teakwondo te invitamos a Iniciar sesion con tus datos</p>
+                    <input type="button" value="Iniciar sesion" />
+                </div>
 
-     </form>
+                </div>
+             
 
-     </div>
+            <div className={styles.form}>
+                <div className={styles.formChilds}>
+                    <h2> Crear Cuenta</h2>
+                    <div className={styles.icon}></div>
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-facebook-circle'></i>
+                </div>
+                <p>O usa un Correo para Registrarse</p>
+
+            <form action="">
+                <label htmlFor="">
+                    <i class='bx bx-user'></i> 
+                    <input type="text" placeholder="Nombre Completo" />
+                </label>
+                <label htmlFor="">
+                <i class='bx bx-envelope'></i>
+                <input type="email" placeholder="Correo electronico" />
+                </label>
+                <label htmlFor="">
+                <i class='bx bx-lock-alt'></i>
+                <input type="password" placeholder="**********" />
+                </label>
+                <input type="submit" value="Registrarse" />
+            </form>
+            </div>
+            </div>
+    </div>
     )
 }
