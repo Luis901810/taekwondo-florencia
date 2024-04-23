@@ -18,10 +18,10 @@ export default function Register () {
             <div className={styles.form}>
                 <div className={styles.formChilds}>
                     <h2> Crear Cuenta</h2>
-                    <div className={styles.icon}></div>
+                    <div className={styles.icon}>
                     <i class='bx bxl-google'></i>
                     <i class='bx bxl-facebook-circle'></i>
-                </div>
+                    </div>
                 <p>O usa un Correo para Registrarse</p>
 
             <form action="">
@@ -39,6 +39,7 @@ export default function Register () {
                 </label>
                 <input type="submit" value="Registrarse" />
             </form>
+            </div>
             </div>
             </div>
     </div>
