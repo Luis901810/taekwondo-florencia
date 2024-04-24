@@ -25,7 +25,7 @@ export default function Register () {
                 <p>O usa un Correo para Registrarse</p>
 
             <form className={styles.form}  action="">
-                <label htmlFor="">
+                <label>
                     <i className='bx bx-user'></i> 
                     <input type="text" placeholder="Nombre Completo" />
                 </label>
