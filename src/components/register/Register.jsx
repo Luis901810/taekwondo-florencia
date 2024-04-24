@@ -29,7 +29,7 @@ export default function Register () {
                     <i className='bx bx-user'></i> 
                     <input type="text" placeholder="Nombre Completo" />
                 </label>
-                <label htmlFor="">
+                <label >
                 <i className='bx bx-envelope'></i>
                 <input type="email" placeholder="Correo electronico" />
                 </label>
