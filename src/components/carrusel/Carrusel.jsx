@@ -17,7 +17,7 @@ export default function Carrusel  () {
         <div className="container">
             <div className="carousel-caption text-start">
             <h1>Example headline.</h1>
-            <p className="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
+            <p className="opacity-75">Algún contenido de marcador de posición representativo para la primera diapositiva del carrusel.</p>
             <p><Link to="/registro" className="btn btn-lg btn-primary" >Registrate Hoy</Link></p>
             </div>
         </div>
