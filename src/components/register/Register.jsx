@@ -13,31 +13,31 @@ export default function Register () {
                 </div>
 
                 </div>
-             
+            
 
-            <div className={styles.form}>
+            <div className={styles.formInf}>
                 <div className={styles.formChilds}>
                     <h2> Crear Cuenta</h2>
                     <div className={styles.icon}>
-                    <i class='bx bxl-google'></i>
-                    <i class='bx bxl-facebook-circle'></i>
+                    <i className='bx bxl-google'></i>
+                    <i className='bx bxl-facebook-circle'></i>
                     </div>
                 <p>O usa un Correo para Registrarse</p>
 
-            <form action="">
+            <form className={styles.form}  action="">
                 <label htmlFor="">
-                    <i class='bx bx-user'></i> 
+                    <i className='bx bx-user'></i> 
                     <input type="text" placeholder="Nombre Completo" />
                 </label>
                 <label htmlFor="">
-                <i class='bx bx-envelope'></i>
+                <i className='bx bx-envelope'></i>
                 <input type="email" placeholder="Correo electronico" />
                 </label>
                 <label htmlFor="">
-                <i class='bx bx-lock-alt'></i>
+                <i className='bx bx-lock-alt'></i>
                 <input type="password" placeholder="**********" />
                 </label>
-                <input type="submit" value="Registrarse" />
+                <input className={styles.boton} type="submit" value="Registrarse" />
             </form>
             </div>
             </div>

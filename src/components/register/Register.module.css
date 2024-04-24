@@ -7,8 +7,6 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    /* background-image: url("../../galeria/fondoRegistro.avif"); */
-    background-size: cover;
 }
 
 .information{
@@ -26,7 +24,10 @@
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: #c7eef3;
+    /* background-color: #c7eef3; */
+    background-image: url("../../galeria/fondoRegistro.jpg");
+    background-size: cover;
+    background-position: center;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -40,7 +41,8 @@
 }
 .childs p{
     margin: 15px;
-    color: #555;
+    color: #989898;
+    font-size: 20px;
 }
 
 .childs input{
@@ -49,7 +51,7 @@
     border: solid 2px #9191bd;
     border-radius: 20px;
     padding: 10px 20px;
-    color: #9191bd;
+    color: #2d2ded;
     cursor: pointer;
     transition: background-color.3s ease;
 
@@ -61,7 +63,7 @@
     color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
 }
-.form{
+.formInf{
 
     display: flex;
     align-items: center;
@@ -101,4 +103,80 @@
 .icon i:hover{
     background-color: #c7c7f3;
     color: #fff;
+}
+
+.form{
+    padding: 30px 0 0 0;
+}
+.form label{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    background-color: #fff;
+}
+.form label input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #333;
+}
+.form label i{
+    color: #a7a7a7a7;
+}
+
+.boton{
+    background-color: #9191bd;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+.boton:hover{
+    background-color: #7a7a9a;
+}
+/* responsive */
+@media screen and (max-width:750px){
+    html{
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width:580px){
+    html{
+        font-size: 10px;
+    }
+    .information{
+        height: auto;
+        flex-direction: column;
+    
+    }
+    .infor{
+        
+        width: 100%;
+        padding: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 0;
+        background-size:70%; 
+
+    }
+    .formInf{
+        width: 100%;
+        padding: 20px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 20px;
+    }
+    
+    
 }
