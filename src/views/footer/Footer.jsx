@@ -23,7 +23,7 @@ export default function Footer() {
               <ul className = "nav flex-column">
                 <li className = "nav-item mb-2"><span onClick={handleHome} className = "nav-link p-0 text-body-secondary">Inicio</span></li>
                 <li className = "nav-item mb-2"><span className = "nav-link p-0 text-body-secondary">Features</span></li>
-                <li className = "nav-item mb-2"><span className = "nav-link p-0 text-body-secondary">Pricing</span></li>
+              
               </ul>
             </div>
       
@@ -32,7 +32,7 @@ export default function Footer() {
               <ul className = "nav flex-column">
                 <li className = "nav-item mb-2"><span className = "nav-link p-0 text-body-secondary">Whatsaap</span></li>
                 <li className = "nav-item mb-2"><span className = "nav-link p-0 text-body-secondary">Celular</span></li>
-                <li className = "nav-item mb-2"><span className = "nav-link p-0 text-body-secondary">Correo</span></li>
+              
               
               </ul>
             </div>
@@ -42,7 +42,7 @@ export default function Footer() {
               <ul className ="nav flex-column">
                 <li className="nav-item mb-2"><span className = "nav-link p-0 text-body-secondary">Home</span></li>
                 <li className="nav-item mb-2"><span className = "nav-link p-0 text-body-secondary">Features</span></li>
-                <li className="nav-item mb-2"><span className = "nav-link p-0 text-body-secondary">Pricing</span></li>
+              
               
               </ul>
             </div>
