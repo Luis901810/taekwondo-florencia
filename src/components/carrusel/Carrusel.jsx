@@ -37,7 +37,7 @@ export default function Carrusel  () {
         <div className="container">
             <div className="carousel-caption text-end">
             <h1>One more for good measure.</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            <p>Algún contenido de marcador de posición representativo para la primera diapositiva del carrusel.</p>
             <p><Link to="#" className="btn btn-lg btn-primary">Browse gallery</Link></p>
             </div>
         </div>
