@@ -37,12 +37,14 @@
 }
 .childs h2{
     font-size: 2rem;
-    color: #333;
+    color: #107cdb;
+    font-weight: bold;
 }
 .childs p{
     margin: 15px;
-    color: #989898;
+    color: #4cb2d4;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .childs input{
