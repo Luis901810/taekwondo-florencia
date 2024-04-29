@@ -1,6 +1,8 @@
 
 import { useState } from "react"
 import styles from "./Register.module.css"
+import { useNavigate } from "react-router-dom";
+
 
 export default function Register () {
 
@@ -9,6 +11,8 @@ export default function Register () {
         const toggleFormVisibility = () =>{
             setIsLoginForm(!isLoginForm);
         }
+
+        const navigate = useNavigate();
 
 
     return (
@@ -52,13 +56,13 @@ export default function Register () {
             </div>
             </div>
 
-            {/* //---------------------------------------------------------------------------------- */}
+            {/* //----------------------------------------------------------------------------------  */}
 
-            <div className={`${styles.information} ${isLoginForm ? "": styles.hide}  login`}>
+        <div className={`${styles.information} ${isLoginForm ? "": styles.hide}  login`}>
                 <div className={styles.infor}>
                 <div className={styles.childs}>
                     <h2>!! Bienvenidos Nuevamente</h2>
-                    <p>Si aun no tienes una cuenta por favor registrate aqui</p>
+                <p>Si aun no tienes una cuenta por favor registrate Aqui</p>
                     <input type="button" value="Registrarse" onClick={toggleFormVisibility} id="sign-up"/>
                 </div>
 
@@ -70,7 +74,7 @@ export default function Register () {
                     <h2>Iniciar Sesion</h2>
                     <div className={styles.icon}>
                     <i className='bx bxl-google'></i>
-                    <i className='bx bxl-facebook-circle'></i>
+                <i className='bx bxl-facebook-circle'></i>
                     </div>
                 <p>O inicia sesion con una cuenta</p>
 
@@ -83,7 +87,7 @@ export default function Register () {
                 <i className='bx bx-lock-alt'></i>
                 <input type="password" placeholder="**********" />
                 </label>
-                <input className={styles.boton} type="submit" value="Iniciar Sesion" />
+            <input className={styles.boton} type="submit" value="Iniciar Sesion" />
             </form>
             </div>
             </div>
